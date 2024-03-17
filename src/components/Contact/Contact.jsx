@@ -27,7 +27,7 @@ const Contact = () => {
                 sendername: email.sendername,
                 msg: email.msg,
             }
-            await axios.post('http://localhost:5000/api/send', data)
+            await axios.post('https://protfolio-backend-three.vercel.app/', data)
             console.log(data)
         } catch (err) {
             console.log(err)
