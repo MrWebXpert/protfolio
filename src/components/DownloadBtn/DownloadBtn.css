@@ -1,0 +1,61 @@
+.cvbtn {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 20px;
+}
+
+.cvbtn {
+    display: flex;
+    align-items: center;
+}
+
+.mainbtn {
+    border-radius: 30px;
+    color: var(--color-grey-2);
+    position: relative;
+    border: 1px solid var(--color-secondary);
+    display: flex;
+    align-self: flex-start;
+    align-items: center;
+    transition: all .3s ease-in-out;
+    overflow: hidden;
+}
+
+.mainbtn:hover {
+    color: white;
+}
+
+.btnText {
+    margin-left: 18px;
+    font-weight: 600;
+}
+
+.mainbtn::before {
+    position: absolute;
+    content: '';
+    background-color: var(--color-secondary);
+    width: 0%;
+    height: 100%;
+    right: 0;
+    z-index: -1;
+    transition: all .3s ease-in-out;
+}
+
+.mainbtn:hover:before {
+    width: 100%;
+}
+
+.mainbtn span img {
+    width: 20px;
+    height: 20px;
+}
+
+.btnicon {
+    background-color: var(--color-secondary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    padding: 12px;
+    margin-left: 20px;
+}

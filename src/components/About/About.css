@@ -1,0 +1,50 @@
+.abtme h2 {
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.abtme h2 span {
+    color: var(--color-secondary);
+}
+
+.abtme p {
+    font-size: 1.1rem;
+    font-weight: 500;
+    line-height: 1.7rem;
+    color: var(--color-grey-2);
+}
+
+.timepra {
+    width: 75%;
+}
+
+@media only screen and (max-width: 540px) {
+    .timepra {
+        width: 95%;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .timepra {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .timepra {
+        width: 85%;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .timepra {
+        width: 80%;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .timepra {
+        width: 75%;
+    }
+}

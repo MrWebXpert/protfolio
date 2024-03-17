@@ -1,0 +1,25 @@
+.progressbar .progresstitle {
+    font-size: 1.1em;
+    font-weight: 500;
+}
+
+.progressbar .bar {
+    display: flex;
+    align-items: center;
+    gap: 0 15px;
+}
+
+.bar .bartitle {
+    color: var(--color-grey-2);
+}
+
+.progressbar .progress {
+    width: 100%;
+    background: var(--color-grey-3);
+    height: 13px !important;
+}
+
+.wspan {
+    background-color: var(--color-secondary);
+    border-radius: 10px;
+}

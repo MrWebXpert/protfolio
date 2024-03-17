@@ -1,0 +1,77 @@
+.about-head h1 {
+    position: relative;
+    font-size: 50px;
+    font-weight: 800;
+}
+
+.about-head span {
+    color: var(--color-secondary);
+}
+
+.about-head h1 {
+    position: relative;
+}
+
+.about-head h1 .content-after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: -65px;
+    z-index: -10;
+    font-size: inherit;
+    width: 40%;
+    margin: auto;
+    color: #454e56;
+}
+
+.about-head h1::after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: -100px;
+    z-index: -1;
+    color: var(--color-grey-5);
+    font-size: 70px;
+    width: 40%;
+    margin: auto;
+    font-weight: 900;
+}
+
+
+@media only screen and (max-width: 540px) {
+
+    .about-head h1::after {
+        top: -70px;
+        width: 70%;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .about-head h1::after {
+        top: -70px;
+        width: 40%;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .about-head h1::after {
+        top: -70px;
+        width: 50%;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .about-head h1::after {
+        top: -70px;
+        width: 30%;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .about-head h1::after {
+        top: -70px;
+        width: 30%;
+    }
+}

@@ -1,0 +1,42 @@
+.hero {
+    width: 100%;
+    height: auto;
+    min-height: 700px;
+    padding: 200px 0 0 0;
+}
+
+.hero .bio h1 span,
+.hero .bio h2 span {
+    color: var(--color-secondary);
+}
+
+.bio-img .img-fluid {
+    max-width: 80% !important;
+    height: auto;
+}
+
+.bio-img .img {
+    transition: all .4s ease-in-out;
+    animation: imgTranslate 3s infinite linear;
+}
+
+.bio h3 {
+    color: var(--color-grey-2);
+}
+
+.bio p {
+    color: var(--color-grey-2);
+}
+
+@keyframes imgTranslate {
+
+    0%,
+    100% {
+        transform: translate(0rem);
+    }
+
+    50% {
+        transform: translateY(-1rem);
+    }
+
+}

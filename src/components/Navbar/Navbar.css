@@ -1,0 +1,116 @@
+.header-wrapper .navbar {
+    padding: 15px 0;
+    -webkit-transition: all .4s linear;
+    -o-transition: all .4s linear;
+    transition: all .4s linear;
+}
+
+.header-wrapper .navbar-brand {
+    color: var(--color-white);
+    font-size: 23px;
+    font-weight: 400;
+
+}
+
+.header-wrapper .navbar-brand span {
+    color: var(--color-secondary);
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.header-wrapper .navbar-toggler {
+    border: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+
+.nav-item .nav-link {
+    color: #b2becd;
+    position: relative;
+    padding: auto 0;
+    transition: all .4s ease-in-out;
+    padding: 8px 0;
+    margin: 0 5px;
+}
+
+.nav-item .nav-link::after {
+    position: absolute;
+    content: "";
+    height: 2px;
+    width: 0%;
+    background: var(--color-secondary);
+    bottom: 0;
+    left: 2px;
+    scale: 1;
+    transition: all .3s ease-in-out;
+}
+
+.nav-item .nav-link:hover:after {
+    width: 100%;
+}
+
+.nav-item .active,
+.nav-item .nav-link:hover {
+    color: var(--color-white) !important;
+}
+
+.fixed-navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: var(--color-grey-5);
+    box-shadow: var(--box-shadow-1);
+    padding: 0;
+}
+
+.header-wrapper .nav-item .nav-link.active::after,
+.header-wrapper .nav-item .nav-link:hover::after {
+    width: 100%;
+}
+
+@media only screen and (max-width: 390px) {
+
+    .header-wrapper .navbar-nav .nav-item {
+        width: 50% !important;
+        margin: auto;
+    }
+}
+
+@media only screen and (max-width: 540px) {
+
+    .header-wrapper .navbar-nav .nav-item {
+        width: 30%;
+        margin: auto;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+
+    .header-wrapper .navbar-nav .nav-item {
+        width: 30%;
+        margin: auto;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+
+    .header-wrapper .navbar-nav .nav-item {
+        width: 30%;
+        margin: auto;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .header-wrapper .navbar-nav .nav-item {
+        width: 30%;
+        margin: auto;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .timepra {
+        width: 75%;
+    }
+}

@@ -1,0 +1,99 @@
+.t-head h1 {
+    color: white;
+    font-size: 40px;
+    margin-top: 2rem;
+}
+
+.carousel-inner {
+    width: 70%;
+    margin: auto;
+    background-color: transparent;
+    color: var(--color-grey-2);
+}
+
+.carousel-item {
+    padding: 1rem 6rem;
+}
+
+.carousel-item .c-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.carousel-item .c-content h3 {
+    color: var(--color-secondary);
+    margin: 1rem 0;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.carousel-item .c-content p {
+    color: var(--color-grey-2);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.carousel-item img {
+    width: 150px;
+    border-radius: 50%;
+}
+
+.carousel-indicators {
+    position: absolute;
+    right: 0;
+    bottom: -20px;
+    left: 0;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin-right: 15%;
+    margin-bottom: 1rem;
+    margin-left: 15%;
+    list-style: none;
+}
+
+.testimonial-section .carousel-indicators button {
+    opacity: .5;
+    background-color: var(--color-grey-2);
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+}
+
+.testimonial-section .carousel-indicators button.active {
+    opacity: 1;
+}
+
+@media only screen and (max-width: 598px) {
+    .carousel-inner {
+        width: 100%;
+    }
+
+    .carousel-item {
+        padding: 1rem 2rem;
+    }
+
+}
+
+@media only screen and (min-width: 598px) {
+    .carousel-inner {
+        width: 100%;
+    }
+
+    .carousel-item {
+        padding: 1rem 2rem;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .carousel-inner {
+        width: 100%;
+    }
+
+    .carousel-item {
+        padding: 1rem 4rem;
+    }
+}

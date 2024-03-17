@@ -1,0 +1,65 @@
+.timeline p {
+    color: var(--color-grey-2);
+}
+
+.timecard {
+    padding: 1.5rem;
+    transition: all .3s ease-in-out;
+    cursor: pointer;
+    border: 1px solid var(--color-grey-5);
+    border-radius: 5px;
+    transition: all 0.4s ease-in-out;
+    box-shadow: 1px 2px 15px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    padding: 1rem;
+    margin: .7rem 0;
+}
+
+.timecard:hover {
+    transform: translateY(-10px);
+    border: 1px solid var(--color-secondary);
+    border-radius: 5px;
+}
+
+
+
+
+.timecard .timeIcon {
+    width: 100px;
+    height: 100px;
+    background-color: var(--color-secondary);
+    border-radius: 50%;
+    padding: 10px;
+}
+
+
+
+.timecard {
+    display: flex;
+    justify-content: space-between;
+    gap: 0 20px;
+}
+
+.timetitle span {
+    background-color: var(--color-grey-4);
+    padding: 3px 20px;
+    border-radius: 20px;
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--color-grey-2);
+    margin-bottom: 20px;
+}
+
+.timedes h3 {
+    margin: 20px 0;
+}
+
+.timedes h3 span {
+    color: var(--color-grey-4);
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.timedes p {
+    color: var(--color-grey-2);
+}
