@@ -28,10 +28,7 @@ const Testinomial = () => {
                                         <div className="c-content">
                                             <img src={testinomailimg1} className="d-block" alt="..." />
                                             <h3>Riasat</h3>
-                                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita
-                                                exercitationem
-                                                neque magni iste laudantium facilis consequuntur, impedit ducimus nisi
-                                                corporis?
+                                            <p>In this digital world. I help people in build there business and brand digitally which helps in the many thing like:Brand building, more seling etc.
                                             </p>
                                         </div>
                                     </div>
@@ -39,10 +36,7 @@ const Testinomial = () => {
                                         <div className="c-content">
                                             <img src={testinomailimg2} className="d-block" alt="..." />
                                             <h3>Ayesha</h3>
-                                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita
-                                                exercitationem
-                                                neque magni iste laudantium facilis consequuntur, impedit ducimus nisi
-                                                corporis?
+                                            <p>In this digital world. I help people in build there business and brand digitally which helps in the many thing like:Brand building, more seling etc.
                                             </p>
                                         </div>
                                     </div>
@@ -50,10 +44,7 @@ const Testinomial = () => {
                                         <div className="c-content">
                                             <img src={testinomailimg3} className="d-block" alt="..." />
                                             <h3>Malik Sajjad </h3>
-                                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita
-                                                exercitationem
-                                                neque magni iste laudantium facilis consequuntur, impedit ducimus nisi
-                                                corporis?
+                                            <p>In this digital world. I help people in build there business and brand digitally which helps in the many thing like:Brand building, more seling etc.
                                             </p>
                                         </div>
                                     </div>

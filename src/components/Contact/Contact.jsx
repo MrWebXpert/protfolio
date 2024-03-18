@@ -65,7 +65,7 @@ const Contact = () => {
                                 </div>
                                 <div className="info-item">
                                     <span><img src={envelopeImg} alt="" /></span>
-                                    <p><a href="#">mrhammadsandhu07@gmail.com</a></p>
+                                    <p><a href="#">mrwebxpert@gmail.com</a></p>
                                 </div>
                                 <SocialBtns></SocialBtns>
                             </div>

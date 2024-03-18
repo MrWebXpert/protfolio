@@ -51,7 +51,8 @@ const About = () => {
                     <div className="row my-5 d-flex justify-content-between align-items-center">
                         <div className="col-lg-6 text-center text-md-start ">
                             <h1 className='mb-4'>Why Choose <span style={{ color: '#27AE60' }}>Me</span> ?</h1>
-                            <p style={{ color: 'var(--color-grey-2)' }}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis nihil quod autem minus libero doloribus impedit aliquam, assumenda illum officia et blanditiis obcaecati asperiores enim commodi corrupti ipsa! Provident laborum obcaecati exercitationem. Illum eos quo alias dolorum omnis sed sit Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam consequuntur exercitationem facere delectus? Illum animi corporis nostrum atque minima deserunt aut voluptates magnam ea labore tenetur, id, repellendus voluptatibus nihil!</p>
+                            <p style={{ color: 'var(--color-grey-2)' }}>Since beginning my journey as a freelance developer nearly 1 years ago, I’ve done remote work for agencies, consulted for startups, and collaborated with talented people to create web products for both business and consumer use.I create successful responsive websites that are fast, easy to use, and built with best practices. The main area of my expertise is front-end development, HTML, CSS, JS, building small and medium web apps, custom plugins, features, animations, and coding interactive layouts.
+                                I also have full-stack developer experience with popular open-source like (MERN Stack and others) </p>
                         </div>
                         <div className="col-lg-6">
                             <div className="row ">
@@ -74,25 +75,21 @@ const About = () => {
                     <div className="row">
                         <div className="col-12 text-center timeline">
                             <MainHead firstpra='My' secondpra='TimeLine' content='My Data'></MainHead>
-                            <p className="timepra mx-auto my-5 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos
-                                saepe
-                                et, tenetur dolor,
-                                quibusdam labore, unde reprehenderit quidem sunt officiis laborum. Eum, quidem eligendi. Odit
-                                fugit quidem illum eius excepturi!</p>
+                            <p className="timepra mx-auto my-5 ">Born in a small town, I spent my early years exploring nature and developing a love for learning. In school, I discovered a passion for writing and storytelling, which led me to pursue a degree in English literature. Throughout my university years, I immersed myself in various literary works and honed my writing skills. </p>
                         </div>
                     </div>
                     <div className="row">
                         <div className="col-lg-6 col-12 ">
-                            <TimeLineCard CourseName="Computer Science" Date="01-05-20021" dueDate='01-05-2023' college="Punjab College Okara" des="sit aliquid, laudantium facere officiis. Quaerat, quos qui!sit aliquid, laudantium facere officiis. Quaerat, quos qui!sit aliquid.!"></TimeLineCard>
+                            <TimeLineCard CourseName="Computer Science" Date="01-05-20021" dueDate='01-05-2023' college="Punjab College Okara" des="Having completed the intermediate level, you've solidified your foundational knowledge and are now equipped with a deeper understanding of various subjects. You've honed critical skills, developed problem-solving abilities, and gained confidence in tackling more complex challenges. With this milestone achieved, you're primed to embark on advanced studies or pursue professional opportunities with a strong base to build upon!"></TimeLineCard>
                         </div>
                         <div className="col-lg-6 col-12">
-                            <TimeLineCard CourseName="Web Development" Date="01-08-20023" dueDate='01-05-2024' college="IDEO College" des="sit aliquid, laudantium facere officiis. Quaerat, quos qui!sit aliquid, laudantium facere officiis. Quaerat, quos qui!sit aliquid.!"></TimeLineCard>
+                            <TimeLineCard CourseName="Web Development" Date="01-08-20023" dueDate='01-05-2024' college="IDEO College" des="After completing your journey in web development, you've emerged as a proficient developer with a comprehensive skill set. You've mastered languages like HTML, CSS, and JavaScript, along with frameworks and libraries such as React, Angular, or Vue.js. Your understanding of backend technologies like Node.js, or Ruby on Rails allows you to create dynamic and interactive web applications!"></TimeLineCard>
                         </div>
                         <div className="col-lg-6 col-12">
-                            <TimeLineCard CourseName="UI / UX Designing" Date="01-08-20023" dueDate='01-05-2024' college="Flux Accadmey" des="sit aliquid, laudantium facere officiis. Quaerat, quos qui!sit aliquid, laudantium facere officiis. Quaerat, quos qui!sit aliquid.!"></TimeLineCard>
+                            <TimeLineCard CourseName="UI / UX Designing" Date="01-08-20023" dueDate='01-05-2024' college="Flux Accadmey" des="After completing your journey in UI/UX design, you've emerged as a skilled architect of user-centric digital experiences. You've mastered the art of blending aesthetics with functionality, creating intuitive interfaces that delight users and drive engagement. Your expertise in user research, wireframing, and prototyping enables you to craft seamless user journeys that prioritize usability and accessibility. You're adept at incorporating design principles such as hierarchy, typography, and color theory to create visually compelling layouts that resonate with target audiences."></TimeLineCard>
                         </div>
                         <div className="col-lg-6 col-12">
-                            <TimeLineCard CourseName="Web Seo" Date="01-01-20024" dueDate='01-05-2024' college="YouTube" des="sit aliquid, laudantium facere officiis. Quaerat, quos qui!sit aliquid, laudantium facere officiis. Quaerat, quos qui!sit aliquid.!"></TimeLineCard>
+                            <TimeLineCard CourseName="Web Seo" Date="01-01-20024" dueDate='01-05-2024' college="YouTube" des="After completing your journey in web SEO, you've become a seasoned strategist in enhancing online visibility and driving organic traffic to websites. You've delved deep into the intricacies of search engine algorithms, mastering techniques to optimize content, meta tags, and site structure for improved rankings. Your expertise extends to keyword research, competitor analysis, and link building strategies, allowing you to craft compelling SEO campaigns tailored to specific audiences. You're proficient in leveraging analytics tools to track performance metrics, refine strategies, and deliver measurable results"></TimeLineCard>
                         </div>
                         <hr />
                     </div>

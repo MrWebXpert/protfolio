@@ -8,6 +8,7 @@ import About from './components/About/About'
 import Portfolio from './components/Portfolio/Portfolio'
 import Services from './components/Services/Services.jsx'
 import Contact from './components/Contact/Contact.jsx'
+import Footer from './components/Footer/Footer.jsx'
 // import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 
 function App() {
@@ -42,6 +43,7 @@ function App() {
       <Services></Services>
       <Portfolio></Portfolio>
       <Contact></Contact>
+      <Footer></Footer>
     </>
   )
 }
