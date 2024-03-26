@@ -7,7 +7,7 @@ import { Typewriter, Cursor } from 'react-simple-typewriter'
 
 const Hero = () => {
     const text = Typewriter({
-        words: ['Fornt-end Developer', 'Ui /UX Designer', ' & Web Seo Expert'],
+        words: ['Fornt-end Developer', 'Ui/UX Designer', ' & Web Seo Expert'],
         loop: {},
         typeSpeed: 120,
         delaySpeed: 80
@@ -21,7 +21,7 @@ const Hero = () => {
                             <div className="d-flex flex-column bio ">
                                 <h3 className="mb-4">Hello, it's Me</h3>
                                 <h1 className="mb-1 text-center text-md-start ">Mr.Hammad.</h1>
-                                <h2 className="mb-4 text-center text-md-start  ">And I'm a <span id="changingText">{text} <Cursor cursorStyle='|'></Cursor></span></h2>
+                                <h2 className="mb-4 text-center text-md-start  ">And I'm a <span id="changingText">{text} <Cursor cursorStyle='<'></Cursor></span></h2>
                                 <p className='text-center text-md-start '>And I am 18 years young boy with dynamic and enthusiastic person looking for the job Web Design and Development mostly specializing in front end development</p>
                             </div>
                             <Socialbtn></Socialbtn>

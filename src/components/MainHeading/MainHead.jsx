@@ -6,8 +6,8 @@ const AboutHead = ({ firstpra, secondpra, content }) => {
 
     const dynamicStyles = {
         position: 'relative',
-        fontSize: '80px',
-        fontWeight: 900,
+        fontSize: '50px',
+        fontWeight: 700,
     };
 
 

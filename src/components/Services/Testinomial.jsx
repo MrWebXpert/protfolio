@@ -15,7 +15,7 @@ const Testinomial = () => {
                     <div className="row">
                         <div className="col-sm-12">
                             <div id="carouselExampleIndicators" className="carousel slide" data-bs-ride="carousel">
-                                <div className="carousel-indicators">
+                                <div className="carousel-indicators mt-4 ">
                                     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
                                         className="active" aria-current="true" aria-label="Slide 1"></button>
                                     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
@@ -28,7 +28,7 @@ const Testinomial = () => {
                                         <div className="c-content">
                                             <img src={testinomailimg1} className="d-block" alt="..." />
                                             <h3>Riasat</h3>
-                                            <p>In this digital world. I help people in build there business and brand digitally which helps in the many thing like:Brand building, more seling etc.
+                                            <p className='w-75 mx-auto w'>In this digital world. I help people in build there business and brand digitally which helps in the many thing like:Brand building, more seling etc.
                                             </p>
                                         </div>
                                     </div>
@@ -36,7 +36,7 @@ const Testinomial = () => {
                                         <div className="c-content">
                                             <img src={testinomailimg2} className="d-block" alt="..." />
                                             <h3>Ayesha</h3>
-                                            <p>In this digital world. I help people in build there business and brand digitally which helps in the many thing like:Brand building, more seling etc.
+                                            <p className='w-75 mx-auto'>In this digital world. I help people in build there business and brand digitally which helps in the many thing like:Brand building, more seling etc.
                                             </p>
                                         </div>
                                     </div>
@@ -44,7 +44,7 @@ const Testinomial = () => {
                                         <div className="c-content">
                                             <img src={testinomailimg3} className="d-block" alt="..." />
                                             <h3>Malik Sajjad </h3>
-                                            <p>In this digital world. I help people in build there business and brand digitally which helps in the many thing like:Brand building, more seling etc.
+                                            <p className='w-75 mx-auto'>In this digital world. I help people in build there business and brand digitally which helps in the many thing like:Brand building, more seling etc.
                                             </p>
                                         </div>
                                     </div>

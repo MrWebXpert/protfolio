@@ -1,7 +1,7 @@
 .about-head h1 {
     position: relative;
-    font-size: 50px;
-    font-weight: 800;
+    font-size: 30px;
+    font-weight: 500;
 }
 
 .about-head span {
@@ -41,37 +41,37 @@
 
 
 @media only screen and (max-width: 540px) {
-
+    /* 
     .about-head h1::after {
         top: -70px;
         width: 70%;
-    }
+    } */
 }
 
 @media only screen and (min-width: 600px) {
-    .about-head h1::after {
+    /* .about-head h1::after {
         top: -70px;
         width: 40%;
-    }
+    } */
 }
 
 @media only screen and (min-width: 768px) {
-    .about-head h1::after {
+    /* .about-head h1::after {
         top: -70px;
         width: 50%;
-    }
+    } */
 }
 
 @media only screen and (min-width: 992px) {
-    .about-head h1::after {
+    /* .about-head h1::after {
         top: -70px;
         width: 30%;
-    }
+    } */
 }
 
 @media only screen and (min-width: 1200px) {
-    .about-head h1::after {
+    /* .about-head h1::after {
         top: -70px;
         width: 30%;
-    }
+    } */
 }

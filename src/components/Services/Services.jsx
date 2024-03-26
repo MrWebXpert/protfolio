@@ -15,7 +15,7 @@ const Services = () => {
                     <div className="row text-center">
                         <div className="col-12 mt-4">
                             <MainHead firstpra='My' secondpra='Services'></MainHead>
-                            <p style={{ color: 'var(--color-grey-2)' }}> My journey begins with a foundation built on curiosity and a hunger for innovation. Armed with a diverse skill set encompassing HTML, CSS, JavaScript, and beyond, I embark on crafting digital experiences that seamlessly merge form and function. From responsive design principles to the intricacies of backend development, I thrive on the challenge of bringing ideas to life in the virtual realm. With an eye for detail and a commitment to user-centric design, I navigate the ever-evolving landscape of web technologies with agility and creativity. </p>
+                            <p className='w-75 mx-auto' style={{ color: 'var(--color-grey-2)' }}> My journey begins with a foundation built on curiosity and a hunger for innovation. Armed with a diverse skill set encompassing HTML, CSS, JavaScript, and beyond, I embark on crafting digital experiences that seamlessly merge form and function. From responsive design principles to the intricacies of backend development, . </p>
                         </div>
                     </div>
                     <div className="row">

@@ -1,11 +1,9 @@
 import React from 'react'
 import portimg from '../../assets/img/port/port (2).png'
-import portimg2 from '../../assets/img/port/port (3).jpg'
-import portimg3 from '../../assets/img/port/port (4).png'
-import portimg4 from '../../assets/img/port/port (5).jpg'
-import portimg5 from '../../assets/img/port/port (6).png'
-import portimg6 from '../../assets/img/port/port (7).jpg'
+import portimg1 from '../../assets/img/port/port1.jpg'
+import portimg2 from '../../assets/img/port/port.png'
 import PortfolioCard from './PortfolioCard'
+import MainHead from '../MainHeading/MainHead'
 
 const Portfolio = () => {
     return (
@@ -17,7 +15,7 @@ const Portfolio = () => {
                     <div className="row">
                         <div className="col-12 text-center my-5 ">
                             <div className="about-head">
-                                <h1>My <span>Portfolio</span></h1>
+                                <MainHead firstpra='My' secondpra='Portfolio'></MainHead>
                                 <p className="w-75  mx-auto my-5 " style={{ color: 'var(--color-grey-2)' }}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
                                     perferendis vero et at cupiditate alias natus ipsam voluptate quae ducimus! Minus odio
                                     nostrum ullam ut ratione inventore eum quisquam blanditiis.</p>
@@ -29,22 +27,13 @@ const Portfolio = () => {
                     </div>
                     <div className="row">
                         <div className="col-md-4 col-12 ">
-                            <PortfolioCard portImg={portimg} projectName='OneShot App' projectDes='Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore eligendi esse sed nesciunt aspernatur porro quibusdam ratione, cumque dolor minus.' Livelink={'https://oneshot-app.netlify.app'}> </PortfolioCard>
+                            <PortfolioCard portImg={portimg} projectName='OneShot App' projectDes='Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore eligendi esse sed nesciunt aspernatur porro quibusdam ratione, cumque dolor minus.' Livelink='https://oneshot-app.netlify.app'> </PortfolioCard>
                         </div>
                         <div className="col-md-4 col-12 ">
-                            <PortfolioCard portImg={portimg2} projectName='Video Player App' projectDes='Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore eligendi esse sed nesciunt aspernatur porro quibusdam ratione, cumque dolor minus.'></PortfolioCard>
+                            <PortfolioCard portImg={portimg2} projectName='Video Player App' projectDes='Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore eligendi esse sed nesciunt aspernatur porro quibusdam ratione, cumque dolor minus.' Livelink='https://mrwebxpert.vercel.app'></PortfolioCard>
                         </div>
                         <div className="col-md-4 col-12 ">
-                            <PortfolioCard portImg={portimg3} projectName='E-Commrace App' projectDes='Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore eligendi esse sed nesciunt aspernatur porro quibusdam ratione, cumque dolor minus.'></PortfolioCard>
-                        </div>
-                        <div className="col-md-4 col-12 ">
-                            <PortfolioCard portImg={portimg4} projectName='Graphic Designing App' projectDes='Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore eligendi esse sed nesciunt aspernatur porro quibusdam ratione, cumque dolor minus.'></PortfolioCard>
-                        </div>
-                        <div className="col-md-4 col-12 ">
-                            <PortfolioCard portImg={portimg5} projectName='E-Commrace App' projectDes='Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore eligendi esse sed nesciunt aspernatur porro quibusdam ratione, cumque dolor minus.'></PortfolioCard>
-                        </div>
-                        <div className="col-md-4 col-12 ">
-                            <PortfolioCard portImg={portimg6} projectName='Admin DashBoard App' projectDes='Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore eligendi esse sed nesciunt aspernatur porro quibusdam ratione, cumque dolor minus.'></PortfolioCard>
+                            <PortfolioCard portImg={portimg1} projectName='Video Player App' projectDes='Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore eligendi esse sed nesciunt aspernatur porro quibusdam ratione, cumque dolor minus.' Livelink='https://oneshot-app.netlify.app'></PortfolioCard>
                         </div>
                     </div>
                     <hr />
